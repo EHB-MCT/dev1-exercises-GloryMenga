@@ -11,7 +11,7 @@
 
    function drawlayers(){
 
-    context.lineWidth = 1;
+    context.lineWidth = 2;
     context.strokeStyle = 'black';
     context.beginPath();
     context.fillStyle = 'lightblue';
