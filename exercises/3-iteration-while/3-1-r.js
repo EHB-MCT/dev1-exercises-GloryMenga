@@ -13,14 +13,13 @@ function draw() {
 
 function drawWarpedEllipses() {
     let i = 0;
-    while () {
-        let gray = ;
-        context.fillStyle = Utils.rgb(gray, gray, gray);
+    while (i < 6) {
+        context.fillStyle = Utils.rgb(i * 50,i * 50,i * 50);
         //This fillAndStrokeEllipse function does not exist yet!
         //Add it to the utils script:
         //The function draws the stroke of a circle AND fills it
         //and has the following parameters: x, y, rX, rY
-        Utils.fillAndStrokeEllipse(200, 200, , );
+        Utils.fillAndStrokeEllipse();
         i++;
     }
 }

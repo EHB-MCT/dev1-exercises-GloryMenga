@@ -13,10 +13,9 @@ function draw() {
 
 function drawGradientCircles() {
     let i = 0;
-    while () {
-        let gray = ;
-        context.fillStyle = Utils.rgb(gray, gray, gray);
-        let radius = ;
+    while ( i < 6) {
+        context.fillStyle = Utils.rgb(i * 50, i * 50, i * 50);
+        let radius = 150-30 * i;
         Utils.fillAndStrokeCircle(200, 200, radius);
         i++;;
     }
