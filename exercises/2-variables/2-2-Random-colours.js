@@ -14,13 +14,20 @@
 
    let color = "rgb(" + r + "," + g + "," + b + ")";
 
-   drawsquares();
+  drawRect(75,75,400);
+  drawRect(100,100,350);
+  drawRect(125,125,400);
+  drawRect(150,150,250);
+  drawRect(175,175,200);
+  drawRect(200,200,150);
+  drawRect(225,225,100);
+  drawRect(250,250,50);
 
-   function drawsquares(){
+   function drawsquares(x,y,size){
      context.lineWidth = 2;
      context.fill();
      context.beginPath();
-     context.rect(50,50,200,200);
+     context.rect(x,y,size,size);
      context.stroke();
 
    }
